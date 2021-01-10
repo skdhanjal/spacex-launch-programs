@@ -1,0 +1,31 @@
+@import '../../css/colors.scss';
+
+.launch-card {
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0 20px 20px 0;
+    border-radius: 4px;
+    width: 280px;
+
+    &_img {
+        background-color: $color-lightghray;
+        width: 240px;
+    }
+
+    &__details {
+        &--item {
+            font-size: 14px;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+    }
+
+    @media screen and (min-width : 1020px) {
+        width: 255px;
+
+        &_img {
+            width: 210px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import '../../css/colors.scss';
+
+.launch-filters {
+    min-width: 280px;
+    width: 280px;
+    height: calc(100% - 50px);
+    background-color: #fff;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+    &__year, &__launch, &__landing {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &--text {
+        text-align: center;
+        border-bottom: 1px solid gray;
+        padding: 3px 0;
+        margin-bottom: 10px;
+    }
+
+    .launch-filter {
+        margin-bottom: 10px;
+
+        &:nth-child(2n+1) {
+            margin-right: 55px;
+        }
+
+        &:nth-child(2n) {
+            margin-left: 60px;
+        }
+    }
+
+}

@@ -1,0 +1,41 @@
+
+.launch-programs {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    position: relative;
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    &__loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .launch-filters {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width : 700px) {
+        flex-direction:row;
+
+        &__cards {
+            margin-left: 20px;
+        }
+    }
+
+    @media screen and (min-width : 1020px) {
+
+        &__cards {
+            flex-direction: row;
+        }
+    }
+
+}
