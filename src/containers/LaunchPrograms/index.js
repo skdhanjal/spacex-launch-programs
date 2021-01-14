@@ -51,6 +51,7 @@ function LaunchPrograms() {
                 })}
             </div>
             }
+            { !isLoading && launchs.length ===0 && <h2>No Launch data found for these filters.</h2>}
         </div>
     );
 }
