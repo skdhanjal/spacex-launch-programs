@@ -7,5 +7,5 @@ npm i
 ## start server
 
 ```
-node server.js
+node server/bootstrap.js
 ```
