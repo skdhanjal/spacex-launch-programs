@@ -1,4 +1,5 @@
 
+import React from 'react';
 import LaunchPrograms from './containers/LaunchPrograms';
 import './App.scss';
 
