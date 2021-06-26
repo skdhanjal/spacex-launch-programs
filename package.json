@@ -2,6 +2,7 @@
   "name": "spacex-launch-programs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://gitname.github.io/spacex-launch-programs",
   "dependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-transform-runtime": "^7.12.10",
@@ -22,14 +23,17 @@
     "react-loading-skeleton": "^2.1.1",
     "react-router": "^5.1.2",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "gh-pages": "^1.0.0"
   },
   "scripts": {
     "build": "react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-server": "yarn build && NODE_ENV=production node server/bootstrap.js"
+    "start-server": "yarn build && NODE_ENV=production node server/bootstrap.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
