@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/skdhanjal/spx-launch-programs/static/css/main.df04a0ff.chunk.css",
-    "main.js": "/skdhanjal/spx-launch-programs/static/js/main.77b3661c.chunk.js",
-    "main.js.map": "/skdhanjal/spx-launch-programs/static/js/main.77b3661c.chunk.js.map",
-    "runtime-main.js": "/skdhanjal/spx-launch-programs/static/js/runtime-main.e6b6ca8e.js",
-    "runtime-main.js.map": "/skdhanjal/spx-launch-programs/static/js/runtime-main.e6b6ca8e.js.map",
-    "static/js/2.92205066.chunk.js": "/skdhanjal/spx-launch-programs/static/js/2.92205066.chunk.js",
-    "static/js/2.92205066.chunk.js.map": "/skdhanjal/spx-launch-programs/static/js/2.92205066.chunk.js.map",
-    "static/js/3.20d0473e.chunk.js": "/skdhanjal/spx-launch-programs/static/js/3.20d0473e.chunk.js",
-    "static/js/3.20d0473e.chunk.js.map": "/skdhanjal/spx-launch-programs/static/js/3.20d0473e.chunk.js.map",
-    "index.html": "/skdhanjal/spx-launch-programs/index.html",
-    "static/css/main.df04a0ff.chunk.css.map": "/skdhanjal/spx-launch-programs/static/css/main.df04a0ff.chunk.css.map",
-    "static/js/2.92205066.chunk.js.LICENSE.txt": "/skdhanjal/spx-launch-programs/static/js/2.92205066.chunk.js.LICENSE.txt"
+    "main.css": "/spx-launch-programs/static/css/main.df04a0ff.chunk.css",
+    "main.js": "/spx-launch-programs/static/js/main.77b3661c.chunk.js",
+    "main.js.map": "/spx-launch-programs/static/js/main.77b3661c.chunk.js.map",
+    "runtime-main.js": "/spx-launch-programs/static/js/runtime-main.b183b469.js",
+    "runtime-main.js.map": "/spx-launch-programs/static/js/runtime-main.b183b469.js.map",
+    "static/js/2.92205066.chunk.js": "/spx-launch-programs/static/js/2.92205066.chunk.js",
+    "static/js/2.92205066.chunk.js.map": "/spx-launch-programs/static/js/2.92205066.chunk.js.map",
+    "static/js/3.20d0473e.chunk.js": "/spx-launch-programs/static/js/3.20d0473e.chunk.js",
+    "static/js/3.20d0473e.chunk.js.map": "/spx-launch-programs/static/js/3.20d0473e.chunk.js.map",
+    "index.html": "/spx-launch-programs/index.html",
+    "static/css/main.df04a0ff.chunk.css.map": "/spx-launch-programs/static/css/main.df04a0ff.chunk.css.map",
+    "static/js/2.92205066.chunk.js.LICENSE.txt": "/spx-launch-programs/static/js/2.92205066.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6b6ca8e.js",
+    "static/js/runtime-main.b183b469.js",
     "static/js/2.92205066.chunk.js",
     "static/css/main.df04a0ff.chunk.css",
     "static/js/main.77b3661c.chunk.js"
